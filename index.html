@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Semantics Cheat Sheet</title>
+</head>
+<body>
+    <header>
+        <h1>List of Semantics for HTML</h1>
+        <p>A guide to what HTML semantic tags represent in an HTML document</p>
+    </header>
+    <main>
+        <section id='semantics table'>
+            <table>
+                <thead>List of Semantics
+                    <th scope='col'>Tag</th>
+                    <th scope='col'>Name</th>
+                    <th scope='col'>Purpose</th>
+                </thead>
+                <tbody>
+                    <tr id='title'>
+                        <td><span class='tag'>&lt;title&gt;</span></td>
+                        <td>Title</td>
+                        <td>Shows the browser tab and search results</td>
+                    </tr>
+                    <tr id='header'>
+                        <td><span class='tag'>&lt;header&gt;</span></td>
+                        <td>Header</td>
+                        <td>Can either be the head of the webpage when inside the <span class='tag'>&lt;body&gt;</span> or the title of an <span class='tag'>&lt;article&gt;</span></td>
+                    </tr>
+                    <tr id='main'>
+                        <td><span class='tag'>&lt;main&gt;</span></td>
+                        <td>Main</td>
+                        <td>Hold the main content of the webpage</td>
+                    </tr>
+                    <tr id='article'>
+                        <td><span class='tag'>&lt;article&gt;</span></td>
+                        <td>Article</td>
+                        <td>An independent piece of content on a webpage that could be a standalone</td>
+                    </tr id='aside'>
+                        <td><span class='tag'>&lt;aside&gt;</span></td>
+                        <td>Aside</td>
+                        <td>Content that is supplementary to the <span class='tag'>&lt;main&gt;</span> content of the page</td>
+                    <tr id='link'>
+                        <td><span class='tag'>&lt;link&gt;</span></td>
+                        <td>Link</td>
+                        <td>Represents an element that links to other webpages using <span class='attribute'>href</span> and <span class='attribute'>rel</span></td> 
+                    </tr>
+                    <tr id='footer'>
+                        <td><span class='tag'>&lt;footer&gt;</span></td>
+                        <td>Footer</td>
+                        <td>Is the footer of the website when nested within the <span class='tag'>&lt;body&gt;</span> element and the least important info inside an <span class='tag'>&lt;article&gt;</span></td> 
+                    </tr>
+                    <tr id='nav'>
+                        <td><span class='tag'>&lt;nav&gt;</span></td>
+                        <td>Navigation</td>
+                        <td>An element that contains links to other sources or webpages</td> 
+                    </tr>
+                    <tr id='section'>
+                        <td><span class='tag'>&lt;section&gt;</span></td>
+                        <td>Section</td>
+                        <td>Contains groups of related elements</td> 
+                    </tr>
+                    <tr id='figure'>
+                        <td><span class='tag'>&lt;figure&gt;</span></td>
+                        <td>Figure</td>
+                        <td>Can contain images, code and other visual representations that could standalone</td> 
+                    </tr>
+                    <tr id='figcaption'>
+                        <td><span class='tag'>&lt;figcaption&gt;</span></td>
+                        <td>Figure caption</td>
+                        <td>Adds a caption to the <span class='tag'>&lt;figure&gt;</span> element and must be nested inside of it at all instances</td> 
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id='Good vs Bad Semantics'>
+            <h2>Good vs Bad Semantics</h3>
+            <figure>
+                <table>
+                    <thead>
+                        <th scope='col'>Good</th>
+                        <th scope='col'>Bad</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src='https://www.w3schools.com/html/img_sem_elements.gif'/></td>
+                        </tr>
+                        <tr>
+                            <td><img src='./badsemantics.png'/></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </figure>
+        </section>
+    </main>
+</body>
+</html>
