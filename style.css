@@ -1,0 +1,73 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+main {
+    background-color: beige;
+    color: black;
+}
+
+#semanticstable table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#semanticstable thead {
+    width: 300px;
+    background-color: rgb(29, 23, 23);
+    color: white
+}
+
+.tag {
+    color: rgb(34, 241, 172);
+    background-color: rgb(26, 18, 27);
+}
+
+#semanticstable td {
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+    
+  }
+
+img {
+    height: 10cm;
+    width: 10cm;
+}
+
+.GoodvsBadSemantics th {
+    font-size: 20px;
+}
+
+.GoodvsBadSemantics td {
+    padding: 10px;
+}
+
+.newtable {
+
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.figcaption {
+    border: 5px solid black;
+    background-color: white;
+    font-weight: bold;
+}

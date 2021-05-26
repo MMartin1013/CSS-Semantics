@@ -2,16 +2,20 @@
 <html lang="en">
 <head>
     <title>Semantics Cheat Sheet</title>
+    <link href='style.css' rel='stylesheet'/>
 </head>
 <body>
     <header>
         <h1>List of Semantics for HTML</h1>
-        <p>A guide to what HTML semantic tags represent in an HTML document</p>
+        <p id='headercaption'>A guide to what HTML semantic tags represent in an HTML document</p>
     </header>
     <main>
-        <section id='semantics table'>
+        <br>
+        <br>
+        <section id='semanticstable'>
+            <h2>Semantics Table</h3>
             <table>
-                <thead>List of Semantics
+                <thead>
                     <th scope='col'>Tag</th>
                     <th scope='col'>Name</th>
                     <th scope='col'>Purpose</th>
@@ -48,7 +52,7 @@
                     <tr id='footer'>
                         <td><span class='tag'>&lt;footer&gt;</span></td>
                         <td>Footer</td>
-                        <td>Is the footer of the website when nested within the <span class='tag'>&lt;body&gt;</span> element and the least important info inside an <span class='tag'>&lt;article&gt;</span></td> 
+                        <td>The footer of the website when nested within the <span class='tag'>&lt;body&gt;</span> element and the least important info inside an <span class='tag'>&lt;article&gt;</span></td> 
                     </tr>
                     <tr id='nav'>
                         <td><span class='tag'>&lt;nav&gt;</span></td>
@@ -73,21 +77,26 @@
                 </tbody>
             </table>
         </section>
-        <section id='Good vs Bad Semantics'>
-            <h2>Good vs Bad Semantics</h3>
+        <br>
+        <section>
+            <h2 class='newtable'>Good vs Bad Semantics</h3>
             <figure>
-                <table>
+                <table class='GoodvsBadSemantics'>
                     <thead>
                         <th scope='col'>Good</th>
                         <th scope='col'>Bad</th>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td><img src='https://www.w3schools.com/html/img_sem_elements.gif'/></td>
-                        </tr>
-                        <tr>
-                            <td><img src='./badsemantics.png'/></td>
-                        </tr>
+                        <figure>
+                            <tr>
+                                <td><img src='https://www.w3schools.com/html/img_sem_elements.gif'/></td>
+                                <td><img src='./badsemantics.png'/></td>
+                            </tr>
+                            <tr>
+                                <td class='figcaption'>Identifiable sections within document</td>
+                                <td class='figcaption'>Unidentifiable sections within document</td>
+                            </tr>
+                    </figure>
                     </tbody>
                 </table>
             </figure>
